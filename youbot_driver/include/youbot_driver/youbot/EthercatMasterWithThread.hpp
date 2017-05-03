@@ -73,8 +73,8 @@
 #include <youbot_driver/youbot/JointLimitMonitor.hpp>
 
 extern "C"{
-#include <ethercattype.h>
-#include <ethercatmain.h>
+#include <youbot_driver/soem/ethercattype.h>
+#include <youbot_driver/soem/ethercatmain.h>
 }
 
 namespace youbot {

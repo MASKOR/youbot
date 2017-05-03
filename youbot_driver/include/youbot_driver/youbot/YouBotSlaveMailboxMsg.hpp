@@ -52,7 +52,7 @@
 #ifndef _YOUBOT_SLAVE_MAILBOX_MESSAGE_H
 #define	_YOUBOT_SLAVE_MAILBOX_MESSAGE_H
 
-#include <ethercattype.h>
+#include <youbot_driver/soem/ethercattype.h>
 #include <string>
 #include <time.h>
 #include <youbot_driver/generic/dataobjectlockfree/DataObjectLockFree.hpp>
