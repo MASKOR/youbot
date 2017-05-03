@@ -221,8 +221,9 @@ SET(SOEM_HEADERS
 ## Your package locations should be listed before other locations
 include_directories(
   ${catkin_INCLUDE_DIRS}
+  include
   include/youbot_driver/
-  include/youbot_driver/soem
+  include/youbot_driver/soem/
 )
 
 ## Declare a C++ library
@@ -245,7 +246,9 @@ add_library(soem
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-# add_executable(${PROJECT_NAME}_node src/youbot_driver_node.cpp)
+add_executable(DisplayIpAddress
+  src/DisplayIpAddress/DisplayIpAddress.cpp
+)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -265,6 +268,10 @@ target_link_libraries(soem
 target_link_libraries(YouBotDriver
   ${catkin_LIBRARIES}
   soem
+  )
+
+target_link_libraries(DisplayIpAddress
+  ${catkin_LIBRARIES}
 )
 
 #############
