@@ -60,16 +60,16 @@
 #include <iostream>
 #include <boost/thread.hpp>
 #include <boost/date_time/posix_time/posix_time.hpp>
-#include "generic/Logger.hpp"
-#include "generic/Units.hpp"
-#include "generic/Time.hpp"
-#include "generic/Exceptions.hpp"
-#include "generic/ConfigFile.hpp"
-#include "youbot/ProtocolDefinitions.hpp"
-#include "youbot/YouBotSlaveMsg.hpp"
-#include "youbot/YouBotSlaveMailboxMsg.hpp"
-#include "youbot/EthercatMaster.hpp"
-#include "youbot/JointLimitMonitor.hpp"
+#include <youbot_driver/generic/Logger.hpp>
+#include <youbot_driver/generic/Units.hpp>
+#include <youbot_driver/generic/Time.hpp>
+#include <youbot_driver/generic/Exceptions.hpp>
+#include <youbot_driver/generic/ConfigFile.hpp>
+#include <youbot_driver/youbot/ProtocolDefinitions.hpp>
+#include <youbot_driver/youbot/YouBotSlaveMsg.hpp>
+#include <youbot_driver/youbot/YouBotSlaveMailboxMsg.hpp>
+#include <youbot_driver/youbot/EthercatMaster.hpp>
+#include <youbot_driver/youbot/JointLimitMonitor.hpp>
 
 extern "C"{
 #include <ethercattype.h>

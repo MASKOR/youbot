@@ -61,14 +61,14 @@
 #include <stdlib.h>
 #include "boost/date_time/gregorian/gregorian.hpp"
 #include "boost/filesystem.hpp"
-#include "generic/Logger.hpp"
-#include "generic/Units.hpp"
-#include "generic/Time.hpp"
-#include "generic/ConfigFile.hpp"
-#include "generic/Exceptions.hpp"
-#include "youbot/YouBotGripper.hpp"
-#include "youbot/YouBotGripperBar.hpp"
-#include "youbot/YouBotGripperParameter.hpp"
+#include <youbot_driver/generic/Logger.hpp>
+#include <youbot_driver/generic/Units.hpp>
+#include <youbot_driver/generic/Time.hpp>
+#include <youbot_driver/generic/ConfigFile.hpp>
+#include <youbot_driver/generic/Exceptions.hpp>
+#include <youbot_driver/youbot/YouBotGripper.hpp>
+#include <youbot_driver/youbot/YouBotGripperBar.hpp>
+#include <youbot_driver/youbot/YouBotGripperParameter.hpp>
 
 using namespace boost::posix_time;
 

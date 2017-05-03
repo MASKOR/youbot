@@ -1,6 +1,6 @@
 // ConfigFile.cpp
 
-#include "generic/ConfigFile.hpp"
+#include <youbot_driver/generic/ConfigFile.hpp>
 
 using std::string;
 

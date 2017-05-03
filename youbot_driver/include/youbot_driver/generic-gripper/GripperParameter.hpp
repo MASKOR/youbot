@@ -51,7 +51,7 @@
  * License LGPL and BSD license along with this program.
  *
  ****************************************************************/
-#include "generic-joint/JointParameter.hpp"
+#include <youbot_driver/generic-joint/JointParameter.hpp>
 namespace youbot {
 
 ///////////////////////////////////////////////////////////////////////////////

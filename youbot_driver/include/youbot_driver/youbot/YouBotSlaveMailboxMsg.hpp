@@ -55,7 +55,7 @@
 #include <ethercattype.h>
 #include <string>
 #include <time.h>
-#include "generic/dataobjectlockfree/DataObjectLockFree.hpp"
+#include <youbot_driver/generic/dataobjectlockfree/DataObjectLockFree.hpp>
 
 namespace youbot {
 

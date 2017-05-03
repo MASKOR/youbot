@@ -48,7 +48,7 @@
  * License LGPL and BSD license along with this program.
  *
  ****************************************************************/
-#include "youbot/YouBotJointParameter.hpp"
+#include <youbot_driver/youbot/YouBotJointParameter.hpp>
 namespace youbot {
 
 YouBotApiJointParameter::YouBotApiJointParameter() {

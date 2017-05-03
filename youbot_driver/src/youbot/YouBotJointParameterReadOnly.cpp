@@ -48,7 +48,7 @@
  * License LGPL and BSD license along with this program.
  *
  ****************************************************************/
-#include "youbot/YouBotJointParameterReadOnly.hpp"
+#include <youbot_driver/youbot/YouBotJointParameterReadOnly.hpp>
 namespace youbot {
 
 YouBotJointParameterReadOnly::YouBotJointParameterReadOnly() {

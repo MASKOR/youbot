@@ -53,11 +53,11 @@
  ****************************************************************/
 #include <vector>
 #include <string>
-#include "generic/Logger.hpp"
-#include "generic/Units.hpp"
-#include "generic/Exceptions.hpp"
-#include "base-kinematic/WheeledBaseKinematic.hpp" 
-#include "base-kinematic/FourSwedishWheelOmniBaseKinematicConfiguration.hpp"
+#include <youbot_driver/generic/Logger.hpp>
+#include <youbot_driver/generic/Units.hpp>
+#include <youbot_driver/generic/Exceptions.hpp>
+#include <youbot_driver/base-kinematic/WheeledBaseKinematic.hpp>
+#include <youbot_driver/base-kinematic/FourSwedishWheelOmniBaseKinematicConfiguration.hpp>
 namespace youbot {
 
 ///////////////////////////////////////////////////////////////////////////////

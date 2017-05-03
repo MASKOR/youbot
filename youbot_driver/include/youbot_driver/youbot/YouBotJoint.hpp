@@ -56,24 +56,24 @@
 #include <cmath>
 #include <boost/thread.hpp>
 #include <boost/scoped_ptr.hpp>
-#include "generic/Logger.hpp"
-#include "generic/Units.hpp"
-#include "generic/Time.hpp"
-#include "generic/Exceptions.hpp"
-#include "generic-joint/Joint.hpp"
-#include "generic-joint/JointData.hpp"
-#include "youbot/YouBotJointStorage.hpp"
-#include "youbot/ProtocolDefinitions.hpp"
-#include "youbot/YouBotJointParameter.hpp"
-#include "youbot/YouBotJointParameterPasswordProtected.hpp"
-#include "youbot/YouBotSlaveMsg.hpp"
-#include "youbot/YouBotSlaveMailboxMsg.hpp"
-#include "youbot/EthercatMaster.hpp"
-#include "youbot/EthercatMasterInterface.hpp"
-#include "youbot/EthercatMasterWithThread.hpp"
-#include "youbot/EthercatMasterWithoutThread.hpp"
-#include "youbot/JointTrajectoryController.hpp"
-#include "youbot/JointLimitMonitor.hpp"
+#include <youbot_driver/generic/Logger.hpp>
+#include <youbot_driver/generic/Units.hpp>
+#include <youbot_driver/generic/Time.hpp>
+#include <youbot_driver/generic/Exceptions.hpp>
+#include <youbot_driver/generic-joint/Joint.hpp>
+#include <youbot_driver/generic-joint/JointData.hpp>
+#include <youbot_driver/youbot/YouBotJointStorage.hpp>
+#include <youbot_driver/youbot/ProtocolDefinitions.hpp>
+#include <youbot_driver/youbot/YouBotJointParameter.hpp>
+#include <youbot_driver/youbot/YouBotJointParameterPasswordProtected.hpp>
+#include <youbot_driver/youbot/YouBotSlaveMsg.hpp>
+#include <youbot_driver/youbot/YouBotSlaveMailboxMsg.hpp>
+#include <youbot_driver/youbot/EthercatMaster.hpp>
+#include <youbot_driver/youbot/EthercatMasterInterface.hpp>
+#include <youbot_driver/youbot/EthercatMasterWithThread.hpp>
+#include <youbot_driver/youbot/EthercatMasterWithoutThread.hpp>
+#include <youbot_driver/youbot/JointTrajectoryController.hpp>
+#include <youbot_driver/youbot/JointLimitMonitor.hpp>
 
 namespace youbot {
 

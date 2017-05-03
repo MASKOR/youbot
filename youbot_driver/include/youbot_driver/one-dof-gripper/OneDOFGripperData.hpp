@@ -51,8 +51,8 @@
  * License LGPL and BSD license along with this program.
  *
  ****************************************************************/
-#include "generic/Units.hpp"
-#include "generic-gripper/GripperData.hpp"
+#include <youbot_driver/generic/Units.hpp>
+#include <youbot_driver/generic-gripper/GripperData.hpp>
 namespace youbot {
 
 ///////////////////////////////////////////////////////////////////////////////

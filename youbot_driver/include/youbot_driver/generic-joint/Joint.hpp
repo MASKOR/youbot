@@ -52,9 +52,9 @@
  *
  ****************************************************************/
 #include <vector>
-#include "generic/Units.hpp"
-#include "generic-joint/JointData.hpp"
-#include "generic-joint/JointParameter.hpp"
+#include <youbot_driver/generic/Units.hpp>
+#include <youbot_driver/generic-joint/JointData.hpp>
+#include <youbot_driver/generic-joint/JointParameter.hpp>
 
 namespace youbot {
 

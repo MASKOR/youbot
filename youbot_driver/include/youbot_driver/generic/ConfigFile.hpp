@@ -71,7 +71,7 @@
 #include <iostream>
 #include <fstream>
 #include <sstream>
-#include "Exceptions.hpp"
+#include <youbot_driver/generic/Exceptions.hpp>
 
 using std::string;
 

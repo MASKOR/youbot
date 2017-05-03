@@ -34,7 +34,7 @@
 
 // Original version: Melonee Wise <mwise@willowgarage.com>
 #include <cstdio>
-#include "generic/PidController.hpp"
+#include <youbot_driver/generic/PidController.hpp>
 
 namespace youbot {
 

@@ -48,7 +48,7 @@
  * License LGPL and BSD license along with this program.
  *
  ****************************************************************/
-#include "youbot/YouBotGripperParameter.hpp"
+#include <youbot_driver/youbot/YouBotGripperParameter.hpp>
 namespace youbot {
 
 YouBotGripperParameter::YouBotGripperParameter() {

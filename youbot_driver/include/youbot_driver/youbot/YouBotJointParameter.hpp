@@ -54,16 +54,16 @@
 #include <vector>
 #include <sstream>
 #include <boost/limits.hpp>
-#include "generic/Logger.hpp"
-#include "generic/Units.hpp"
-#include "generic/Time.hpp"
-#include "generic/Exceptions.hpp"
-#include "generic-joint/JointParameter.hpp"
-#include "youbot/YouBotJointParameterReadOnly.hpp"
-#include "youbot/ProtocolDefinitions.hpp"
-#include "youbot/YouBotSlaveMsg.hpp"
-#include "youbot/YouBotSlaveMailboxMsg.hpp"
-#include "youbot/YouBotJointStorage.hpp"
+#include <youbot_driver/generic/Logger.hpp>
+#include <youbot_driver/generic/Units.hpp>
+#include <youbot_driver/generic/Time.hpp>
+#include <youbot_driver/generic/Exceptions.hpp>
+#include <youbot_driver/generic-joint/JointParameter.hpp>
+#include <youbot_driver/youbot/YouBotJointParameterReadOnly.hpp>
+#include <youbot_driver/youbot/ProtocolDefinitions.hpp>
+#include <youbot_driver/youbot/YouBotSlaveMsg.hpp>
+#include <youbot_driver/youbot/YouBotSlaveMailboxMsg.hpp>
+#include <youbot_driver/youbot/YouBotJointStorage.hpp>
 namespace youbot {
 
 enum CalibrationDirection {

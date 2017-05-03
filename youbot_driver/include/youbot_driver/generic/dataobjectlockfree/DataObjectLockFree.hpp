@@ -37,8 +37,8 @@
 
 #pragma once
 
-#include "generic/dataobjectlockfree/target.hpp"
-#include "generic/dataobjectlockfree/os/oro_arch.h"
+#include <youbot_driver/generic/dataobjectlockfree/target.hpp>
+#include <youbot_driver/generic/dataobjectlockfree/os/oro_arch.h>
 
 namespace youbot {
 

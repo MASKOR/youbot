@@ -56,9 +56,9 @@
 #include <cstdio>
 #include <stdexcept>
 #include <iostream>
-#include "youbot/EthercatMasterInterface.hpp"
-#include "youbot/EthercatMasterWithoutThread.hpp"
-#include "youbot/EthercatMasterWithThread.hpp"
+#include <youbot_driver/youbot/EthercatMasterInterface.hpp>
+#include <youbot_driver/youbot/EthercatMasterWithoutThread.hpp>
+#include <youbot_driver/youbot/EthercatMasterWithThread.hpp>
 namespace youbot {
 
 ///////////////////////////////////////////////////////////////////////////////

@@ -48,7 +48,7 @@
  * License LGPL and BSD license along with this program.
  *
  ****************************************************************/
-#include "youbot/JointTrajectoryController.hpp"
+#include <youbot_driver/youbot/JointTrajectoryController.hpp>
 namespace youbot {
 
   JointTrajectoryController::JointTrajectoryController() {

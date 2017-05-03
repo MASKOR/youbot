@@ -48,7 +48,7 @@
  * License LGPL and BSD license along with this program.
  *
  ****************************************************************/
-#include "youbot/GripperDataTrace.hpp"
+#include <youbot_driver/youbot/GripperDataTrace.hpp>
 namespace youbot {
 
 GripperDataTrace::GripperDataTrace(YouBotGripperBar& youBotGripperBar, const std::string Name, const bool overwriteFiles):gripperBar(youBotGripperBar) {

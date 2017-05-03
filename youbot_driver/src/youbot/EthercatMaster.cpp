@@ -48,7 +48,7 @@
  * License LGPL and BSD license along with this program.
  *
  ****************************************************************/
-#include "youbot/EthercatMaster.hpp"
+#include <youbot_driver/youbot/EthercatMaster.hpp>
 
 namespace youbot {
 

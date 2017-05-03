@@ -48,7 +48,7 @@
  * License LGPL and BSD license along with this program.
  *
  ****************************************************************/
-#include "youbot/YouBotJoint.hpp"
+#include <youbot_driver/youbot/YouBotJoint.hpp>
 namespace youbot {
 
 YouBotJoint::YouBotJoint(const unsigned int jointNo, const std::string& configFilePath) {

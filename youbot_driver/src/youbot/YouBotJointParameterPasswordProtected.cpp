@@ -48,7 +48,7 @@
  * License LGPL and BSD license along with this program.
  *
  ****************************************************************/
-#include "youbot/YouBotJointParameterPasswordProtected.hpp"
+#include <youbot_driver/youbot/YouBotJointParameterPasswordProtected.hpp>
 namespace youbot {
 
 YouBotJointParameterPasswordProtected::YouBotJointParameterPasswordProtected() {

@@ -53,22 +53,22 @@
  ****************************************************************/
 #include <vector>
 #include <sstream>
-#include "generic/Logger.hpp"
-#include "generic/Units.hpp"
-#include "generic/Time.hpp"
-#include "generic/Exceptions.hpp"
-#include "youbot/ProtocolDefinitions.hpp"
-#include "youbot/EthercatMasterInterface.hpp"
-#include "youbot/EthercatMasterWithThread.hpp"
-#include "youbot/EthercatMasterWithoutThread.hpp"
-#include "youbot/YouBotSlaveMsg.hpp"
-#include "youbot/YouBotSlaveMailboxMsg.hpp"
-#include "generic-gripper/Gripper.hpp"
-#include "generic-gripper/GripperData.hpp"
-#include "generic-gripper/GripperParameter.hpp"
-#include "one-dof-gripper/OneDOFGripper.hpp"
-#include "one-dof-gripper/OneDOFGripperData.hpp"
-#include "youbot/YouBotGripperParameter.hpp"
+#include <youbot_driver/generic/Logger.hpp>
+#include <youbot_driver/generic/Units.hpp>
+#include <youbot_driver/generic/Time.hpp>
+#include <youbot_driver/generic/Exceptions.hpp>
+#include <youbot_driver/youbot/ProtocolDefinitions.hpp>
+#include <youbot_driver/youbot/EthercatMasterInterface.hpp>
+#include <youbot_driver/youbot/EthercatMasterWithThread.hpp>
+#include <youbot_driver/youbot/EthercatMasterWithoutThread.hpp>
+#include <youbot_driver/youbot/YouBotSlaveMsg.hpp>
+#include <youbot_driver/youbot/YouBotSlaveMailboxMsg.hpp>
+#include <youbot_driver/generic-gripper/Gripper.hpp>
+#include <youbot_driver/generic-gripper/GripperData.hpp>
+#include <youbot_driver/generic-gripper/GripperParameter.hpp>
+#include <youbot_driver/one-dof-gripper/OneDOFGripper.hpp>
+#include <youbot_driver/one-dof-gripper/OneDOFGripperData.hpp>
+#include <youbot_driver/youbot/YouBotGripperParameter.hpp>
 
 namespace youbot {
 

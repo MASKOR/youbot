@@ -53,15 +53,15 @@
  ****************************************************************/
 #include <vector>
 #include <sstream>
-#include "generic/Logger.hpp"
-#include "generic/Units.hpp"
-#include "generic/Time.hpp"
-#include "generic/Exceptions.hpp"
-#include "generic-joint/JointParameter.hpp"
-#include "generic-gripper/GripperParameter.hpp"
-#include "youbot/ProtocolDefinitions.hpp"
-#include "youbot/YouBotSlaveMsg.hpp"
-#include "youbot/YouBotSlaveMailboxMsg.hpp"
+#include <youbot_driver/generic/Logger.hpp>
+#include <youbot_driver/generic/Units.hpp>
+#include <youbot_driver/generic/Time.hpp>
+#include <youbot_driver/generic/Exceptions.hpp>
+#include <youbot_driver/generic-joint/JointParameter.hpp>
+#include <youbot_driver/generic-gripper/GripperParameter.hpp>
+#include <youbot_driver/youbot/ProtocolDefinitions.hpp>
+#include <youbot_driver/youbot/YouBotSlaveMsg.hpp>
+#include <youbot_driver/youbot/YouBotSlaveMailboxMsg.hpp>
 namespace youbot {
 
 ///////////////////////////////////////////////////////////////////////////////

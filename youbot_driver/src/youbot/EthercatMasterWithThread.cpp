@@ -58,8 +58,8 @@ extern "C" {
 #include "ethercatdc.h"
 #include "ethercatprint.h"
 }
-#include "youbot/EthercatMasterWithThread.hpp"
-#include "youbot/DataTrace.hpp"
+#include <youbot_driver/youbot/EthercatMasterWithThread.hpp>
+#include <youbot_driver/youbot/DataTrace.hpp>
 
 namespace youbot {
 

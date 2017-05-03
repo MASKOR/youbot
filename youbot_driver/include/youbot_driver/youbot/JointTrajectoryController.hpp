@@ -56,15 +56,15 @@
 #include <cstdio>
 #include <stdexcept>
 #include <iostream>
-#include "generic/Logger.hpp"
-#include "generic/Units.hpp"
-#include "generic/Time.hpp"
-#include "generic/Exceptions.hpp"
-#include "generic/PidController.hpp"
-#include "generic-joint/JointTrajectory.hpp"
-#include "youbot/YouBotJointParameter.hpp"
-#include "youbot/YouBotJointParameterPasswordProtected.hpp"
-#include "generic/dataobjectlockfree/DataObjectLockFree.hpp"
+#include <youbot_driver/generic/Logger.hpp>
+#include <youbot_driver/generic/Units.hpp>
+#include <youbot_driver/generic/Time.hpp>
+#include <youbot_driver/generic/Exceptions.hpp>
+#include <youbot_driver/generic/PidController.hpp>
+#include <youbot_driver/generic-joint/JointTrajectory.hpp>
+#include <youbot_driver/youbot/YouBotJointParameter.hpp>
+#include <youbot_driver/youbot/YouBotJointParameterPasswordProtected.hpp>
+#include <youbot_driver/generic/dataobjectlockfree/DataObjectLockFree.hpp>
 
 namespace youbot {
 

@@ -51,9 +51,9 @@
  * License LGPL and BSD license along with this program.
  *
  ****************************************************************/
-#include "youbot/YouBotSlaveMsg.hpp"
-#include "youbot/YouBotSlaveMailboxMsg.hpp"
-#include "youbot/JointLimitMonitor.hpp"
+#include <youbot_driver/youbot/YouBotSlaveMsg.hpp>
+#include <youbot_driver/youbot/YouBotSlaveMailboxMsg.hpp>
+#include <youbot_driver/youbot/JointLimitMonitor.hpp>
 extern "C"{
 #include <ethercattype.h>
 #include <ethercatmain.h>

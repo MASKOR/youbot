@@ -48,7 +48,7 @@
  * License LGPL and BSD license along with this program.
  *
  ****************************************************************/
-#include "youbot/JointLimitMonitor.hpp"
+#include <youbot_driver/youbot/JointLimitMonitor.hpp>
 namespace youbot {
 
 JointLimitMonitor::JointLimitMonitor(const YouBotJointStorage& jointParameters, const quantity<angular_acceleration>& jointAcceleration) {

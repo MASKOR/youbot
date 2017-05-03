@@ -52,7 +52,7 @@
 #ifndef _YOUBOT_SLAVE_MESSAGE_H
 #define	_YOUBOT_SLAVE_MESSAGE_H
 
-#include "generic/dataobjectlockfree/DataObjectLockFree.hpp"
+#include <youbot_driver/generic/dataobjectlockfree/DataObjectLockFree.hpp>
 #include <ethercattype.h>
 #include <string>
 #include <time.h>

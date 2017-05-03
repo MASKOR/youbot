@@ -48,7 +48,7 @@
  * License LGPL and BSD license along with this program.
  *
  ****************************************************************/
-#include "youbot/DataTrace.hpp"
+#include <youbot_driver/youbot/DataTrace.hpp>
 namespace youbot {
 
 DataTrace::DataTrace(YouBotJoint& youBotJoint, const std::string Name, const bool overwriteFiles):joint(youBotJoint) {

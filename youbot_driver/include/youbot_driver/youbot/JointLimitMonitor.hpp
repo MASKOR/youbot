@@ -56,13 +56,13 @@
 #include <sstream>
 #include <cmath>
 #include <boost/thread.hpp>
-#include "generic/Logger.hpp"
-#include "generic/Units.hpp"
-#include "generic/Time.hpp"
-#include "generic/Exceptions.hpp"
-#include "youbot/ProtocolDefinitions.hpp"
-#include "youbot/YouBotJointStorage.hpp"
-#include "youbot/YouBotSlaveMsg.hpp"
+#include <youbot_driver/generic/Logger.hpp>
+#include <youbot_driver/generic/Units.hpp>
+#include <youbot_driver/generic/Time.hpp>
+#include <youbot_driver/generic/Exceptions.hpp>
+#include <youbot_driver/youbot/ProtocolDefinitions.hpp>
+#include <youbot_driver/youbot/YouBotJointStorage.hpp>
+#include <youbot_driver/youbot/YouBotSlaveMsg.hpp>
 
 namespace youbot {
 

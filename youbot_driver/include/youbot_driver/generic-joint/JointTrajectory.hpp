@@ -51,9 +51,9 @@
  * License LGPL and BSD license along with this program.
  *
  ****************************************************************/
-#include "generic/Units.hpp"
-#include "generic/Time.hpp"
-#include "generic-joint/JointData.hpp"
+#include <youbot_driver/generic/Units.hpp>
+#include <youbot_driver/generic/Time.hpp>
+#include <youbot_driver/generic-joint/JointData.hpp>
 namespace youbot {
 
 ///////////////////////////////////////////////////////////////////////////////

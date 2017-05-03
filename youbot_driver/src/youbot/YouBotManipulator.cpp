@@ -48,7 +48,7 @@
  * License LGPL and BSD license along with this program.
  *
  ****************************************************************/
-#include "youbot/YouBotManipulator.hpp"
+#include <youbot_driver/youbot/YouBotManipulator.hpp>
 namespace youbot {
 
 YouBotManipulator::YouBotManipulator(const std::string name, const std::string configFilePath)
