@@ -39,13 +39,12 @@ or enable the USE_SETCAP flag in the cmake file and recompile again.
 	
 
 	<!-- Start the driver. NOTE: Every joint topic is mapped to armName/joint_states -->
-	<!--
+	
 	<node name="youbot_driver" pkg="youbot_driver_ros_interface" type="youbot_driver_ros_interface" output="screen">
 		<remap from="base/joint_states" to="/joint_states"/> 
 		<remap from="arm_1/joint_states" to="/joint_states"/> 
 	</node>
-	-->
-
+	
 	<!-- upoad URDF model to the parameter server -->  
 	<param name="robot_description" command="$(find xacro)/xacro --inorder '$(find youbot_description)/robots/youbot.urdf.xacro'"/>
 
