@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <node name="youbot_averaging_client" pkg="youbot_actions" type="averaging_client" output="screen"></node>
+
+
+</launch>

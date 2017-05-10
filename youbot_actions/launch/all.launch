@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <include file="$(find youbot_actions)/launch/action_servers.launch"></include>
+  <include file="$(find youbot_actions)/launch/action_clients.launch"></include>
+
+</launch>
