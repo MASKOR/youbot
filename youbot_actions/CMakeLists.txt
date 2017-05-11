@@ -117,8 +117,8 @@ catkin_package(
 
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
-# include_directories(include)
 include_directories(
+  include
   ${catkin_INCLUDE_DIRS}
 )
 
@@ -127,16 +127,18 @@ include_directories(
 #   src/${PROJECT_NAME}/youbot_actions.cpp
 # )
 
-## Add cmake target dependencies of the library
-## as an example, code may need to be generated before libraries
-## either from message generation or dynamic reconfigure
-# add_dependencies(${PROJECT_NAME} ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
-
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
 add_executable(averaging_server src/averaging_server.cpp)
 add_executable(averaging_client src/averaging_client.cpp)
+
+## Add cmake target dependencies of the library
+## as an example, code may need to be generated before libraries
+## either from message generation or dynamic reconfigure
+add_dependencies(averaging_server ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+add_dependencies(averaging_client ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -146,8 +148,8 @@ add_executable(averaging_client src/averaging_client.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
-add_dependencies(averaging_server youbot_actions_gencpp)
-add_dependencies(averaging_client youbot_actions_gencpp)
+#add_dependencies(averaging_server youbot_actions_gencpp)
+#add_dependencies(averaging_client youbot_actions_gencpp)
 
 ## Specify libraries to link a library or executable target against
 target_link_libraries(averaging_server
