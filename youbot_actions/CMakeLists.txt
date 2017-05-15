@@ -10,6 +10,7 @@ project(youbot_actions)
 find_package(catkin REQUIRED COMPONENTS
   actionlib
   actionlib_msgs
+  move_base_msgs
   message_generation
   roscpp
   rospy
