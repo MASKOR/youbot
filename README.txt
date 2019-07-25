@@ -1,4 +1,4 @@
-This is copy&paste from oringal wiki at 
+This is taken from the original wiki shown at the following:
 http://www.youbot-store.com/wiki/index.php?title=Gazebo_simulation&hmswSSOID=10b4d7be36c130126e02a9c81ce579a7f71c954f
 
 
